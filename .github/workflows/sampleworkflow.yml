@@ -5,7 +5,7 @@ on:
 
 jobs:
   say-hello: 
-    runs-on: ubuntu lastest
+    runs-on: ubuntu-latest
     steps:
       - name: priting message
         run: "Hello World"
