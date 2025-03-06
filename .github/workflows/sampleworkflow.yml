@@ -9,3 +9,8 @@ jobs:
     steps:
       - name: priting message
         run: echo "Hello World"
+  say-bye: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: priting message
+        run: echo "bye World"
