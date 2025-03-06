@@ -1,0 +1,11 @@
+name: sampleWorkflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello: 
+    runs-on: ubuntu lastest
+    steps:
+      - name: priting message
+        run: "Hello World"
